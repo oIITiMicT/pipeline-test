@@ -16,7 +16,6 @@ public class HashDoubleHashingTest {
     @Rule
     public ExpectedException exception = ExpectedException.none();
 
-  //sam//
     private int getNumberOfElements(HashTable<?> hashTable) {
         try {
             if (hashTable == null) {

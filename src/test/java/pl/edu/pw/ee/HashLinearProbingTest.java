@@ -13,6 +13,7 @@ import static org.junit.Assert.assertNull;
 public class HashLinearProbingTest {
 
     @Rule
+    //mv//
     public ExpectedException exception = ExpectedException.none();
 
     private int getNumberOfElements(HashTable<?> hashTable) {
